@@ -1,0 +1,92 @@
+name: "Run unit tests"
+
+on:
+  pull_request:
+  push:
+    branches:
+        - master
+        - develop
+
+env:
+  COMPOSER_MEMORY_LIMIT: -1
+
+jobs:
+  test:
+    name: "Test ${{ matrix.php }} (${{ matrix.package-release }})"
+    runs-on: ubuntu-latest
+    continue-on-error: ${{ matrix.php == '8.0' }}
+    strategy:
+      max-parallel: 12
+      matrix:
+        php: ['7.4', '8.0']
+        package-release: [source, dist]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Setup PHP ${{ matrix.php }}
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          extensions: exif,json,mbstring,dom
+          coverage: pcov
+
+      - name: Get user-level Composer cache
+        id: composer-cache
+        run: echo "::set-output name=dir::$(composer config cache-files-dir)"
+
+      - name: Setup Composer cache
+        uses: actions/cache@v1
+        with:
+          path: ${{ steps.composer-cache.outputs.dir }}
+          key: composer-${{ runner.os }}-${{ matrix.php }}-${{ matrix.package-release }}-${{ hashFiles('**/composer.json') }}
+          restore-keys: |
+            composer-${{ runner.os }}-${{ matrix.php }}-${{ matrix.package-release }}-
+            composer-${{ runner.os }}-${{ matrix.php }}-
+            composer-${{ runner.os }}-
+
+      - name: Install composer dependencies
+        run: |
+          composer update \
+            --no-suggest \
+            --no-progress \
+            --no-interaction \
+            --ignore-platform-reqs \
+            --prefer-${{ matrix.package-release }}
+
+      - name: Lint files
+        if: ${{ matrix.package-release == 'dist' }}
+        env:
+          PHPCS_CACHE_PATH: "${{ steps.composer-cache.outputs.dir }}/autosiero/phpcs-cache"
+          PHPCS_CACHE_FILE: "${{ matrix.php }}.cache"
+        run: |
+          test -d "${PHPCS_CACHE_PATH}" || mkdir -p "${PHPCS_CACHE_PATH}"
+          vendor/bin/parallel-lint src/ tests/ database/
+          vendor/bin/phpcs --cache="${PHPCS_CACHE_PATH}/${PHPCS_CACHE_FILE}"
+
+      - name: Run unit tests
+        id: phpunit
+        run: |
+          COVERAGE_CLOVER="$( tempfile )"
+          echo "::set-output name=clover::${COVERAGE_CLOVER}"
+          vendor/bin/phpunit --coverage-clover="$COVERAGE_CLOVER"
+
+      - name: Determine coverage
+        uses: slavcodev/coverage-monitor-action@1.1.0
+        if: ${{ matrix.package-release == 'dist' && github.event_name == 'pull_request' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          clover_file: ${{ steps.phpunit.outputs.clover }}
+          threshold_alert: 75
+          threshold_warning: 95
+
+      - name: Report test results to CodeClimate
+        run: |
+          curl -o ./cc-test-reporter -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64
+          chmod +x ./cc-test-reporter
+          ./cc-test-reporter format-coverage -t clover ${CLOVER_DIR}
+          ./cc-test-reporter upload-coverage
+        env:
+          CC_TEST_REPORTER_ID: ${{ secrets.CODECLIMATE_ID }}
+          CLOVER_DIR: ${{ steps.phpunit.outputs.clover }}
+        continue-on-error: true
