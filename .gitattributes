@@ -1,0 +1,2 @@
+# Ignore lock file diffs
+composer.lock binary export-ignore

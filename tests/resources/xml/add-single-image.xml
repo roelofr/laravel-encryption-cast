@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<voertuig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://eigenwebsite.doorlinkenvoorraad.nl/docs/2.16/voertuig.xsd" actie="add" versie="2.16">
+  <voertuignr_hexon>90000011</voertuignr_hexon>
+  <voertuignr>90000011-AWD</voertuignr>
+  <voertuignr_klant/>
+  <klantnummer>30186</klantnummer>
+  <invoerdatum>20-04-2020</invoerdatum>
+  <kenteken>VS775G</kenteken>
+  <merk><![CDATA[Citroën]]></merk>
+  <model>Jumpy</model>
+  <type>1.6 HDI L1H1</type>
+  <toevoeging><![CDATA[Airco, Cruise control]]></toevoeging>
+  <merk_orig><![CDATA[Citroën]]></merk_orig>
+  <model_orig>Jumpy</model_orig>
+  <type_orig>1.6 HDI L1H1</type_orig>
+  <voertuigsoort>BEDRIJF</voertuigsoort>
+  <carrosserie>Bestelauto</carrosserie>
+  <aantal_deuren>5</aantal_deuren>
+  <tellerstand eenheid="K">115503</tellerstand>
+  <brandstof>D</brandstof>
+  <transmissie>H</transmissie>
+  <aantal_versnellingen>5</aantal_versnellingen>
+  <btw_marge>B</btw_marge>
+  <nieuw_voertuig>n</nieuw_voertuig>
+  <laktint/>
+  <kleur/>
+  <basiskleur>wit</basiskleur>
+  <laksoort>basis</laksoort>
+  <constructiedatum/>
+  <bouwjaar>2015</bouwjaar>
+  <datum_deel_1>24-11-2015</datum_deel_1>
+  <datum_deel_1a>24-11-2015</datum_deel_1a>
+  <datum_deel_1b>28-01-2019</datum_deel_1b>
+  <verkoopprijs_particulier bpm="ex" btw="ex">7995</verkoopprijs_particulier>
+  <actieprijs/>
+  <verkoopprijs_handel/>
+  <veiling/>
+  <type_hybride/>
+  <hybride_aandrijving/>
+  <plugin_hybride>n</plugin_hybride>
+  <aanwezige_accu/>
+  <accutype/>
+  <accu_laadvermogen/>
+  <accu_laadtijd/>
+  <accu_snellaadtijd/>
+  <accu_laadsnelheid/>
+  <accu_snellaadsnelheid/>
+  <accu_conditie/>
+  <aantal_fasen_acculader/>
+  <stekkeraansluiting/>
+  <stekkeraansluiting_snellader/>
+  <geschikt_voor_snelladen>n</geschikt_voor_snelladen>
+  <apk tot="24-11-2019" bij_aflevering="j"/>
+  <massa>1636</massa>
+  <max_trekgewicht/>
+  <cilinder_aantal>4</cilinder_aantal>
+  <cilinder_inhoud>1560</cilinder_inhoud>
+  <vermogen_motor_kw>66</vermogen_motor_kw>
+  <vermogen_motor_pk>90</vermogen_motor_pk>
+  <vermogen_brandstof_kw>66</vermogen_brandstof_kw>
+  <vermogen_brandstof_pk>90</vermogen_brandstof_pk>
+  <vermogen_elektrisch_kw/>
+  <vermogen_elektrisch_pk/>
+  <koppel>180</koppel>
+  <aantal_zitplaatsen>3</aantal_zitplaatsen>
+  <bpm_bedrag>7458</bpm_bedrag>
+  <interieurkleur/>
+  <bekleding>Stof</bekleding>
+  <aantal_sleutels/>
+  <aantal_handzenders/>
+  <code_pas_sleutel/>
+  <nap_weblabel>j</nap_weblabel>
+  <carpass>n</carpass>
+  <carpass_url/>
+  <onderhoudsboekjes>ja</onderhoudsboekjes>
+  <locatie_voertuig/>
+  <exportprijs/>
+  <meeneemprijs/>
+  <inkoopprijs/>
+  <bieden_vanaf eenheid="">0</bieden_vanaf>
+  <reserveringsprijs/>
+  <opknapkosten/>
+  <kosten_rijklaar>0</kosten_rijklaar>
+  <gemiddeld_verbruik>6.7</gemiddeld_verbruik>
+  <schadevoertuig>n</schadevoertuig>
+  <consignatie>n</consignatie>
+  <demovoertuig>n</demovoertuig>
+  <wielbasis>300</wielbasis>
+  <laadvermogen>1025</laadvermogen>
+  <gvw>2661</gvw>
+  <loopvlakbreedte/>
+  <bandhoogte/>
+  <aantal_assen>2</aantal_assen>
+  <lengte>481</lengte>
+  <breedte>190</breedte>
+  <hoogte>198</hoogte>
+  <vin>VF7XS9HM0FZ059145</vin>
+  <emissieklasse>5</emissieklasse>
+  <energielabel/>
+  <volautomatisch/>
+  <voortbeweging_zelfstandig/>
+  <verplaatsing>weg</verplaatsing>
+  <bediening/>
+  <generatorvermogen/>
+  <compressorsoort/>
+  <doorvoercapaciteit/>
+  <maximale_reikwijdte/>
+  <voedingsspanning/>
+  <mastlengte/>
+  <bovenarmlengte/>
+  <rupsbandbreedte/>
+  <laadschopinhoud/>
+  <minimale_koeltemperatuur/>
+  <maximale_koeltemperatuur/>
+  <toepassingsmateriaal/>
+  <toepassingsgebied/>
+  <toepassingsschalen/>
+  <ce_markering/>
+  <staat_algemeen/>
+  <staat_technisch/>
+  <staat_optisch/>
+  <diepte/>
+  <rompmateriaal/>
+  <ligplaats/>
+  <aantal_staanplaatsen/>
+  <merk_motor/>
+  <type_motor/>
+  <land_nieuw>nl</land_nieuw>
+  <aandrijving>motorisch</aandrijving>
+  <prijs_nieuw_herberekend>19105</prijs_nieuw_herberekend>
+  <werkbreedte/>
+  <werkhoogte/>
+  <hefhoogte/>
+  <vrije_hefhoogte/>
+  <hefcapaciteit/>
+  <aantal_wielen/>
+  <mast/>
+  <mast_aantal_delen/>
+  <voortbeweging/>
+  <chassisvorm/>
+  <besturing/>
+  <fiets_uitvoering/>
+  <typenummer/>
+  <modeldatum_vanaf>2012-03</modeldatum_vanaf>
+  <modeldatum_tot>2016-06</modeldatum_tot>
+  <modelcode/>
+  <vorklengte/>
+  <vorkbreedte/>
+  <lastzwaartepunt/>
+  <accucapaciteit/>
+  <accuspanning/>
+  <accubouwjaar/>
+  <accubouwmaand/>
+  <accumerk/>
+  <pomp_aansluitingsmaat/>
+  <attachment_passend_op/>
+  <hefwerktuigaansluiting/>
+  <snelwisselsysteem>n</snelwisselsysteem>
+  <pantograaf>n</pantograaf>
+  <breker_soort/>
+  <wals_trillend/>
+  <wals_oppervlak/>
+  <serienummer/>
+  <prijstype/>
+  <bieden_toestaan/>
+  <oldtimer>n</oldtimer>
+  <onderdeel_geschikt_voor/>
+  <ktype/>
+  <fiets_versnelling/>
+  <vrachtwagen_transmissie/>
+  <powershuttle>n</powershuttle>
+  <gesynchroniseerde_transmissie>n</gesynchroniseerde_transmissie>
+  <transmissie_groepen/>
+  <maaier_soort/>
+  <seizoen/>
+  <bedoelde_positie_voor_achter/>
+  <bedoelde_positie_links_rechts/>
+  <minimaal_octaangetal/>
+  <e10_geschikt/>
+  <framehoogte/>
+  <maximale_doorrijhoogte/>
+  <leasevoorstellen>
+    <leasevoorstel>
+      <leasevorm>financial</leasevorm>
+      <leasevorm_naam/>
+      <looptijd>48</looptijd>
+      <maandbedrag>127</maandbedrag>
+      <aantal_km_per_jaar/>
+      <aanbetaling>3000</aanbetaling>
+      <rente_percentage/>
+      <slotsom>2000</slotsom>
+      <prijs_per_extra_km/>
+      <korting_per_km_minder/>
+      <overname_mogelijk/>
+      <borg/>
+      <opmerkingen_nl/>
+      <opmerkingen_en/>
+      <opmerkingen_de/>
+      <opmerkingen_fr/>
+      <opmerkingen_es/>
+      <opmerkingen_pt/>
+      <opmerkingen_it/>
+      <opmerkingen_pl/>
+      <opmerkingen_ru/>
+      <opmerkingen_hu/>
+      <opmerkingen_ro/>
+      <opmerkingen_el/>
+      <opmerkingen_cz/>
+      <opmerkingen_bg/>
+      <opmerkingen_hr/>
+      <opmerkingen_dk/>
+      <opmerkingen_sk/>
+      <opmerkingen_tr/>
+      <opmerkingen_fi/>
+      <opmerkingen_se/>
+      <opmerkingen_no/>
+    </leasevoorstel>
+  </leasevoorstellen>
+  <asconfiguratie>
+    <as nr="1">
+      <positie>voor</positie>
+      <merk_type/>
+      <max_as_last/>
+      <bandenmaat/>
+      <aangedreven>j</aangedreven>
+      <liftas/>
+      <dubbellucht/>
+      <meesturend/>
+      <differentieelslot/>
+      <lichtmetalen_velgen/>
+      <profiel_banden_perc/>
+      <reductie/>
+      <remmen/>
+      <vering/>
+    </as>
+    <as nr="2">
+      <positie>achter</positie>
+      <merk_type/>
+      <max_as_last/>
+      <bandenmaat/>
+      <aangedreven>n</aangedreven>
+      <liftas/>
+      <dubbellucht/>
+      <meesturend/>
+      <differentieelslot/>
+      <lichtmetalen_velgen/>
+      <profiel_banden_perc/>
+      <reductie/>
+      <remmen/>
+      <vering/>
+    </as>
+  </asconfiguratie>
+  <nieuwprijs>30575</nieuwprijs>
+  <netto_catalogusprijs>19105</netto_catalogusprijs>
+  <fiscale_waarde/>
+  <bijtelling_pct>25</bijtelling_pct>
+  <verkocht_datum/>
+  <eigen_garantielabel/>
+  <verlengd>L1</verlengd>
+  <verhoogd>H1</verhoogd>
+  <assen_aangedreven>1</assen_aangedreven>
+  <bedrijfsuren/>
+  <geremd>n</geremd>
+  <datum_binnenkomst>12-02-2019</datum_binnenkomst>
+  <verhuur>n</verhuur>
+  <klassieker>n</klassieker>
+  <aantal_eigenaren/>
+  <onderhoudshistorie/>
+  <afleverpakketten/>
+  <afleverpakket_toegepast/>
+  <aantal_slaapplaatsen/>
+  <merk_chassis/>
+  <model_chassis/>
+  <meldcode/>
+  <land>nl</land>
+  <topsnelheid>145</topsnelheid>
+  <tankinhoud>80</tankinhoud>
+  <actieradius/>
+  <actieradius_elektrisch/>
+  <actieradius_brandstof/>
+  <max_trekgewicht_ongeremd>750</max_trekgewicht_ongeremd>
+  <acceleratie/>
+  <max_dakbelasting/>
+  <inhoud_laadruimte_banken_weggeklapt/>
+  <verbruik_stad>7.9</verbruik_stad>
+  <verbruik_snelweg>6.2</verbruik_snelweg>
+  <elektriciteitsverbruik_gemiddeld/>
+  <elektriciteitsverbruik_snelweg/>
+  <elektriciteitsverbruik_stad/>
+  <co2_uitstoot>177</co2_uitstoot>
+  <fijnstof_uitstoot/>
+  <munteenheid>EUR</munteenheid>
+  <cabine_soort/>
+  <cabine_type/>
+  <cabine_lengte/>
+  <transmissie_merk/>
+  <transmissie_type/>
+  <alternatieve_onderdelen/>
+  <fabrieksgarantie_tot/>
+  <merkgarantie/>
+  <autotrust_garantie>n</autotrust_garantie>
+  <vakgarant_premium_occasion>n</vakgarant_premium_occasion>
+  <vwe_occasion_garant_plan>n</vwe_occasion_garant_plan>
+  <cargarantie>n</cargarantie>
+  <honderd_procent_onderhouden>n</honderd_procent_onderhouden>
+  <bovag_garantie>6</bovag_garantie>
+  <bovag_40puntencheck>n</bovag_40puntencheck>
+  <bovag_afleverbeurt>n</bovag_afleverbeurt>
+  <garantie_maanden/>
+  <garantie_km/>
+  <opmerkingen_garantie/>
+  <euro_ncap_rating/>
+  <bed1_type/>
+  <bed1_positie/>
+  <bed1_richting/>
+  <bed2_type/>
+  <bed2_positie/>
+  <bed2_richting/>
+  <bed3_type/>
+  <bed3_positie/>
+  <bed3_richting/>
+  <zit1_type/>
+  <zit1_positie/>
+  <zit2_type/>
+  <zit2_positie/>
+  <keuken_positie/>
+  <sanitair_opstelling/>
+  <directe_link><![CDATA[https://autosiero.nl/occasions/23129816]]></directe_link>
+  <contactpersonen/>
+  <opmerkingen><![CDATA[BTW: &lt;b&gt;De getoonde prijs is exclusief BTW&lt;/b&gt;&lt;br /&gt;&lt;br /&gt;Gefeliciteerd u heeft 1 van onze scherp geprijsde occasions gevonden. Wij ruilen graag zo veel mogelijk auto's op deze aanbiedingsprijs voor onze exportorder, informeer!! &lt;br /&gt;&lt;br /&gt;Echt keurige Jumpy in de kleur wit Het interieur (3 zitter) en laadruimte in verzorgde conditie incl lat om lat betimmering ! Model 2016.&lt;br /&gt;Voorzien van:Airco Audio Electrische ramen &amp;amp; spiegels, 2 achterdeuren en een zij-schuifdeur en een gesloten kaartenvak . 4X Michelin's.&lt;br /&gt;Een visitekaart voor je bedrijf.&lt;br /&gt;Goed voor veel werkverkeer.&lt;br /&gt;Kom uitgebreid proefrijden!]]></opmerkingen>
+  <opmerkingen_engels><![CDATA[VAT: &lt;b&gt;The price shown is excluding VAT&lt;/b&gt;]]></opmerkingen_engels>
+  <opmerkingen_duits><![CDATA[MwSt.: &lt;b&gt;Der angezeigte Preis versteht sich ohne MwSt.&lt;/b&gt;]]></opmerkingen_duits>
+  <opmerkingen_frans><![CDATA[TVA: &lt;b&gt;Le prix indiqu&amp;eacute; ne comprend pas la TVA&lt;/b&gt;]]></opmerkingen_frans>
+  <opmerkingen_spaans><![CDATA[IVA: &lt;b&gt;El precio indicado no incluye IVA&lt;/b&gt;]]></opmerkingen_spaans>
+  <opmerkingen_portugees/>
+  <opmerkingen_italiaans/>
+  <opmerkingen_grieks/>
+  <opmerkingen_russisch><![CDATA[НДС: &lt;b&gt;Стоимость указана без учета НДС&lt;/b&gt;]]></opmerkingen_russisch>
+  <opmerkingen_roemeens/>
+  <opmerkingen_hongaars/>
+  <opmerkingen_pools><![CDATA[VAT: &lt;b&gt;Pokazana cena nie zawiera VAT&lt;/b&gt;]]></opmerkingen_pools>
+  <opmerkingen_tsjechisch/>
+  <opmerkingen_bulgaars/>
+  <opmerkingen_kroatisch/>
+  <opmerkingen_deens><![CDATA[Moms: &lt;b&gt;Den viste pris er ekskl. moms&lt;/b&gt;]]></opmerkingen_deens>
+  <opmerkingen_slowaaks/>
+  <opmerkingen_turks/>
+  <opmerkingen_fins/>
+  <opmerkingen_zweeds/>
+  <opmerkingen_noors/>
+  <opmerkingen_handel/>
+  <opmerkingen_handel_engels/>
+  <opmerkingen_handel_duits/>
+  <opmerkingen_handel_frans/>
+  <opmerkingen_handel_spaans/>
+  <opmerkingen_handel_portugees/>
+  <opmerkingen_handel_italiaans/>
+  <opmerkingen_handel_grieks/>
+  <opmerkingen_handel_russisch/>
+  <opmerkingen_handel_roemeens/>
+  <opmerkingen_handel_hongaars/>
+  <opmerkingen_handel_pools/>
+  <opmerkingen_handel_tsjechisch/>
+  <opmerkingen_handel_bulgaars/>
+  <opmerkingen_handel_kroatisch/>
+  <opmerkingen_handel_deens/>
+  <opmerkingen_handel_slowaaks/>
+  <opmerkingen_handel_turks/>
+  <opmerkingen_handel_fins/>
+  <opmerkingen_handel_zweeds/>
+  <opmerkingen_handel_noors/>
+  <titel/>
+  <titel_engels/>
+  <titel_duits/>
+  <titel_frans/>
+  <titel_spaans/>
+  <titel_portugees/>
+  <titel_italiaans/>
+  <titel_grieks/>
+  <titel_russisch/>
+  <titel_roemeens/>
+  <titel_hongaars/>
+  <titel_pools/>
+  <titel_tsjechisch/>
+  <titel_bulgaars/>
+  <titel_kroatisch/>
+  <titel_deens/>
+  <titel_slowaaks/>
+  <titel_turks/>
+  <titel_fins/>
+  <titel_zweeds/>
+  <titel_noors/>
+  <highlights/>
+  <highlights_engels/>
+  <highlights_duits/>
+  <highlights_frans/>
+  <highlights_spaans/>
+  <highlights_portugees/>
+  <highlights_italiaans/>
+  <highlights_grieks/>
+  <highlights_russisch/>
+  <highlights_roemeens/>
+  <highlights_hongaars/>
+  <highlights_pools/>
+  <highlights_tsjechisch/>
+  <highlights_bulgaars/>
+  <highlights_kroatisch/>
+  <highlights_deens/>
+  <highlights_slowaaks/>
+  <highlights_turks/>
+  <highlights_fins/>
+  <highlights_zweeds/>
+  <highlights_noors/>
+  <zoektermen/>
+  <zoektermen_engels/>
+  <zoektermen_duits/>
+  <zoektermen_frans/>
+  <zoektermen_spaans/>
+  <zoektermen_portugees/>
+  <zoektermen_italiaans/>
+  <zoektermen_grieks/>
+  <zoektermen_russisch/>
+  <zoektermen_roemeens/>
+  <zoektermen_hongaars/>
+  <zoektermen_pools/>
+  <zoektermen_tsjechisch/>
+  <zoektermen_bulgaars/>
+  <zoektermen_kroatisch/>
+  <zoektermen_deens/>
+  <zoektermen_slowaaks/>
+  <zoektermen_turks/>
+  <zoektermen_fins/>
+  <zoektermen_zweeds/>
+  <zoektermen_noors/>
+  <standaardopmerkingen>Woorden</standaardopmerkingen>
+  <standaardopmerkingen_engels/>
+  <standaardopmerkingen_duits/>
+  <standaardopmerkingen_frans/>
+  <standaardopmerkingen_spaans/>
+  <standaardopmerkingen_portugees/>
+  <standaardopmerkingen_italiaans/>
+  <standaardopmerkingen_grieks/>
+  <standaardopmerkingen_russisch/>
+  <standaardopmerkingen_roemeens/>
+  <standaardopmerkingen_hongaars/>
+  <standaardopmerkingen_pools/>
+  <standaardopmerkingen_tsjechisch/>
+  <standaardopmerkingen_bulgaars/>
+  <standaardopmerkingen_kroatisch/>
+  <standaardopmerkingen_deens/>
+  <standaardopmerkingen_slowaaks/>
+  <standaardopmerkingen_turks/>
+  <standaardopmerkingen_fins/>
+  <standaardopmerkingen_zweeds/>
+  <standaardopmerkingen_noors/>
+  <wegenbelasting_kwartaal min="98.00" max="98.00"/>
+  <verkocht>n</verkocht>
+  <verwacht>n</verwacht>
+  <gereserveerd>n</gereserveerd>
+  <accessoires>
+    <accessoire>
+      <naam>Airco</naam>
+      <prioriteit>1</prioriteit>
+      <volgorde>4</volgorde>
+    </accessoire>
+    <accessoire>
+      <naam>Trekhaak optioneel (meerprijs)</naam>
+      <prioriteit>2</prioriteit>
+      <volgorde>13</volgorde>
+    </accessoire>
+  </accessoires>
+  <accessoires_engels />
+  <accessoires_duits />
+  <accessoires_frans />
+  <accessoires_spaans/>
+  <accessoires_portugees/>
+  <accessoires_italiaans/>
+  <accessoires_grieks/>
+  <accessoires_russisch/>
+  <accessoires_roemeens/>
+  <accessoires_hongaars/>
+  <accessoires_pools/>
+  <accessoires_tsjechisch/>
+  <accessoires_bulgaars/>
+  <accessoires_kroatisch/>
+  <accessoires_deens/>
+  <accessoires_slowaaks/>
+  <accessoires_turks/>
+  <accessoires_fins/>
+  <accessoires_zweeds/>
+  <accessoires_noors/>
+  <accessoiregroepen>
+    <accessoiregroep naam="Interieur">
+      <accessoire prioriteit="1" prijs="">Airco</accessoire>
+    </accessoiregroep>
+    <accessoiregroep naam="Overige">
+      <accessoire prioriteit="1" prijs="">Trekhaak optioneel (meerprijs)</accessoire>
+    </accessoiregroep>
+  </accessoiregroepen>
+  <accessoiregroepen_engels />
+  <accessoiregroepen_duits />
+  <accessoiregroepen_frans />
+  <accessoiregroepen_spaans/>
+  <accessoiregroepen_portugees/>
+  <accessoiregroepen_italiaans/>
+  <accessoiregroepen_grieks/>
+  <accessoiregroepen_russisch/>
+  <accessoiregroepen_roemeens/>
+  <accessoiregroepen_hongaars/>
+  <accessoiregroepen_pools/>
+  <accessoiregroepen_tsjechisch/>
+  <accessoiregroepen_bulgaars/>
+  <accessoiregroepen_kroatisch/>
+  <accessoiregroepen_deens/>
+  <accessoiregroepen_slowaaks/>
+  <accessoiregroepen_turks/>
+  <accessoiregroepen_fins/>
+  <accessoiregroepen_zweeds/>
+  <accessoiregroepen_noors/>
+  <zoekaccessoires>
+    <accessoire>Airconditioning</accessoire>
+    <accessoire>Airbag bestuurder</accessoire>
+    <accessoire>Airbag passagier</accessoire>
+    <accessoire>Alarmsysteem klasse I</accessoire>
+    <accessoire>Antiblokkeersysteem</accessoire>
+    <accessoire>Centrale deurvergrendeling afstandbediend</accessoire>
+    <accessoire>Elektrisch bedienbare ramen voor</accessoire>
+    <accessoire><![CDATA[Radio/CD speler]]></accessoire>
+    <accessoire>Radio met MP3 ondersteuning</accessoire>
+    <accessoire>Stabiliteitscontrole</accessoire>
+    <accessoire>Startonderbreker</accessoire>
+    <accessoire>Trekhaak</accessoire>
+    <accessoire>Tussenschot</accessoire>
+    <accessoire>Verwarmde buitenspiegels</accessoire>
+    <accessoire>Zijschuifdeur rechts</accessoire>
+  </zoekaccessoires>
+  <zoekaccessoires_engels />
+  <zoekaccessoires_duits />
+  <zoekaccessoires_frans />
+  <zoekaccessoires_spaans />
+  <zoekaccessoires_portugees />
+  <zoekaccessoires_italiaans />
+  <zoekaccessoires_grieks />
+  <zoekaccessoires_russisch />
+  <zoekaccessoires_roemeens />
+  <zoekaccessoires_hongaars />
+  <zoekaccessoires_pools />
+  <zoekaccessoires_tsjechisch />
+  <zoekaccessoires_bulgaars />
+  <zoekaccessoires_kroatisch/>
+  <zoekaccessoires_deens />
+  <zoekaccessoires_slowaaks />
+  <zoekaccessoires_turks />
+  <zoekaccessoires_fins/>
+  <zoekaccessoires_zweeds/>
+  <zoekaccessoires_noors/>
+  <schade>
+    <status/>
+    <opmerkingen/>
+    <beschadigingen/>
+    <defecte_onderdelen/>
+  </schade>
+  <vgs>
+    <optiesleutel/>
+    <merktypecode/>
+    <voertuigsoort/>
+    <merk/>
+    <model/>
+    <type/>
+    <uitvoering/>
+    <carrosserievorm/>
+    <brandstof/>
+  </vgs>
+  <autotelex>
+    <uitvoeringsnummer>117558</uitvoeringsnummer>
+    <voertuigsoort/>
+    <merk/>
+    <model/>
+    <carvariant/>
+    <uitvoering/>
+    <koetswerk/>
+    <brandstof/>
+  </autotelex>
+  <afbeeldingen>
+    <afbeelding nr="1">
+      <url>https://via.placeholder.com/1920x1440</url>
+      <bestandsnaam>23129816-1.jpg</bestandsnaam>
+      <omschrijving/>
+    </afbeelding>
+  </afbeeldingen>
+  <panoramas/>
+  <videos/>
+  <documenten/>
+</voertuig>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<voertuig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://eigenwebsite.doorlinkenvoorraad.nl/docs/2.16/voertuig.xsd" actie="delete" versie="2.16">
+    <voertuignr_hexon>90900010</voertuignr_hexon>
+</voertuig>
