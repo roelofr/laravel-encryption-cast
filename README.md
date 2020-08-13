@@ -82,6 +82,16 @@ protected $casts = [
 
 And that's about it.
 
+## Compatibility
+
+To ease development you can use one of the casts in the `Compat` namespace.
+These are included:
+
+- For [`austinheap/laravel-database-encryption`][compat-1] you can use
+  `AustinHeapEncryptedAttribute`.
+
+[compat-1]: https://github.com/austinheap/laravel-database-encryption
+
 ## Contributing
 
 If you found any bugs or issues and can help, please open an issue. The code is
