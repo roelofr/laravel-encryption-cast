@@ -34,14 +34,6 @@
             "Tests\\Roelofr\\EncryptionCast\\": "tests/"
         }
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Roelofr\\EncryptionCast\\Providers\\ServiceProvider"
-            ],
-            "aliases": {}
-        }
-    },
     "scripts": {
         "test": [
             "Composer\\Config::disableProcessTimeout",
