@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Roelofr\EncryptionCast\Models;
+namespace Tests\Roelofr\EncryptionCast\Stubs\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

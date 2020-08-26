@@ -9,7 +9,7 @@ use Illuminate\Contracts\Encryption\DecryptException;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Date;
 use Roelofr\EncryptionCast\Casts\EncryptedAttribute;
-use Tests\Roelofr\EncryptionCast\Models\Dummy;
+use Tests\Roelofr\EncryptionCast\Stubs\Models\Dummy;
 use Tests\Roelofr\EncryptionCast\TestCase;
 
 /**
