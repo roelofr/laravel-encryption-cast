@@ -56,7 +56,7 @@ class Caster
         }
 
 
-        if ($this->isJsonCastable('key') && ! is_null($value)) {
+        if ($this->isJsonCastable('key') && !is_null($value)) {
             $value = $this->castAttributeAsJson('key', $value);
         }
 

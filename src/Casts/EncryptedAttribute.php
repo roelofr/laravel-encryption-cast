@@ -47,7 +47,7 @@ class EncryptedAttribute implements CastsAttributes
     {
         // Decrypt if set
         if ($value !== null) {
-                $value = $this->decryptValue($value);
+            $value = $this->decryptValue($value);
         }
 
         // Return as-is if no type casting is to take place
