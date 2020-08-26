@@ -55,6 +55,11 @@ class Caster
             $value = $this->fromDateTime($value);
         }
 
+        // If the attribute is class-castable, do so
+        if ($this->isClassCastable('key')) {
+            $this->setClassCastableAttribute('key', $value);
+            return $this->attributes['key'];
+        }
 
         if ($this->isJsonCastable('key') && !is_null($value)) {
             $value = $this->castAttributeAsJson('key', $value);

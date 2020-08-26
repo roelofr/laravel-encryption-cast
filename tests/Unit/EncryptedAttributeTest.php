@@ -9,6 +9,8 @@ use Illuminate\Contracts\Encryption\DecryptException;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Date;
 use Roelofr\EncryptionCast\Casts\EncryptedAttribute;
+use Tests\Roelofr\EncryptionCast\Stubs\Casts\AddressCast;
+use Tests\Roelofr\EncryptionCast\Stubs\Models\Address;
 use Tests\Roelofr\EncryptionCast\Stubs\Models\Dummy;
 use Tests\Roelofr\EncryptionCast\TestCase;
 
@@ -163,6 +165,11 @@ class EncryptedAttributeTest extends TestCase
                 collect(['a' => true, 'b' => 'banana']),
                 'collection',
                 'eyJpdiI6IlgrTCtmTlhBVlFjTm9mclhjRzE4Rnc9PSIsInZhbHVlIjoiVlN0cHJrZktpYkVubUE4SE81NGIxenpoV0dsL25sWmgreDBBN2NoM0xUVT0iLCJtYWMiOiIyOTM1ODBhNjYyNjcxNTg5MGQwOWU4MjAwNjAyNDU3MGU0OTQ1MDE3OTdkYjhiNTIxZGM1NzgzZGE1ZjQzMzlmIn0='
+            ],
+            'custom-cast' => [
+                new Address('10 Downing St', null, 'Westminster, London', 'SW1A 2AA', 'United Kingdom'),
+                AddressCast::class,
+                'eyJpdiI6IkJkNGRBMTljV1JiS2p4aEpXc1F2akE9PSIsInZhbHVlIjoibW96SUJIbHZmaEVzR2RQNUc3bHB6dEZaOWtZYjhVeWovaEhrRjJIeUZadFNLVVBpUkNJWTN3OUJpbVRJVTZ0R0tEUndHRFJpMWM3Y3psMzJqOWg4REdZam1sc20zUzZCZ0VpZlArcHViQXY2Z0taL2FqVm94TGM5NGdTWUczeVJqUlNJRUNqQWY2MjBhKzJnaVNzZXRLUzJ3Q2sxMSsvSUVPS0Z6QjZXNnJzPSIsIm1hYyI6Ijk2ZWM1NjIzYWViMmI1ODhmMmRiODRiOTAyZWE5NGI3ZmMzYWMxYjBhOTVjMTMwZTE1NTNhNmRlOTkzMDkzOWQifQ=='
             ]
         ];
         // phpcs:enable Generic.Files.LineLength.TooLong
