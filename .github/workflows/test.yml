@@ -12,7 +12,7 @@ env:
 
 jobs:
   test:
-    name: "Test ${{ matrix.laravel }} on ${{ matrix.php }} (${{ matrix.package-release }})"
+    name: "Test Laravel ${{ matrix.laravel }} on PHP ${{ matrix.php }} (${{ matrix.package-release }})"
     runs-on: ubuntu-latest
     continue-on-error: ${{ matrix.php == '8.0' }}
     strategy:
