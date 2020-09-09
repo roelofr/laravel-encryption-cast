@@ -12,14 +12,20 @@ env:
 
 jobs:
   test:
-    name: "Test ${{ matrix.php }} (${{ matrix.package-release }})"
+    name: "Test ${{ matrix.laravel }} on ${{ matrix.php }} (${{ matrix.package-release }})"
     runs-on: ubuntu-latest
     continue-on-error: ${{ matrix.php == '8.0' }}
     strategy:
       max-parallel: 12
       matrix:
         php: ['7.4', '8.0']
+        laravel: ['7.0', '8.0']
         package-release: [source, dist]
+        include:
+          - laravel: '7.0'
+            testbench: '5.0'
+          - laravel: '8.0'
+            testbench: '6.0'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -44,6 +50,17 @@ jobs:
             composer-${{ runner.os }}-${{ matrix.php }}-${{ matrix.package-release }}-
             composer-${{ runner.os }}-${{ matrix.php }}-
             composer-${{ runner.os }}-
+
+      - name: Configure Laravel ${{ matrix.laravel }} with ${{ matrix.testbench }}
+        run: |
+          composer require \
+            illuminate/contracts:^${{ matrix.laravel }} \
+            illuminate/database:^${{ matrix.laravel }} \
+            illuminate/support:^${{ matrix.laravel }} \
+            --no-update
+          composer require --dev \
+            orchestra/testbench:^${{ matrix.testbench }} \
+            --no-update
 
       - name: Install composer dependencies
         run: |
