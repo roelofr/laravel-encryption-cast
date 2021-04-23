@@ -14,18 +14,36 @@ jobs:
   test:
     name: "Test Laravel ${{ matrix.laravel }} on PHP ${{ matrix.php }} (${{ matrix.package-release }})"
     runs-on: ubuntu-latest
-    continue-on-error: ${{ matrix.php == '8.0' }}
+    continue-on-error: ${{ matrix.experimental == true }}
     strategy:
       max-parallel: 12
       matrix:
-        php: ['7.4', '8.0']
-        laravel: ['7.0', '8.0']
-        package-release: [source, dist]
+        php: 
+          - '7.4'
+          - '8.0'
+          - '8.1'
+          
+        laravel: 
+          - '7.0'
+          - '8.0'
+          
+        package-release: 
+          - source
+          - dist
+        
         include:
           - laravel: '7.0'
             testbench: '5.0'
+            
           - laravel: '8.0'
             testbench: '6.0'
+            
+          - php: '8.0'
+            main: true
+            
+          - php: '8.1'
+            experimental: true
+            
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -90,7 +108,7 @@ jobs:
 
       - name: Determine coverage
         uses: slavcodev/coverage-monitor-action@1.1.0
-        if: ${{ matrix.package-release == 'dist' && github.event_name == 'pull_request' }}
+        if: ${{ matrix.package-release == 'dist' && matrix.main == true && github.event_name == 'pull_request' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           clover_file: ${{ steps.phpunit.outputs.clover }}
