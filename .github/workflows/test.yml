@@ -94,7 +94,6 @@ jobs:
             --no-suggest \
             --no-progress \
             --no-interaction \
-            --ignore-platform-reqs \
             --prefer-${{ matrix.package-release }}
 
       - name: Lint files
