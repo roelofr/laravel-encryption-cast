@@ -18,40 +18,39 @@ jobs:
     strategy:
       max-parallel: 12
       matrix:
-        php: 
-          - '7.4'
+        php:
           - '8.0'
           - '8.1'
-          
-        laravel: 
+
+        laravel:
           - '7.0'
           - '8.0'
           - '9.0'
-          
-        package-release: 
+
+        package-release:
           - source
           - dist
-        
+
         include:
           - laravel: '7.0'
             testbench: '5.0'
-            
+
           - laravel: '8.0'
             testbench: '6.0'
-            
+
           - laravel: '9.0'
             testbench: '7.0'
 
-          - php: '8.0'
-            main: true
-            
           - php: '8.1'
-            experimental: true
+            main: true
 
+          # Additional tests for php 7.4
+          - php: '7.4'
+            laravel: '7.0'
         exclude:
           - php: '8.1'
             laravel: '9.0'
-            
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
