@@ -11,6 +11,13 @@
 A super-simple, fully tested database encryption system, which allows for extra
 conversions to take place afterwards.
 
+## End of Life
+
+This package has reached it's end of life. [Laravel now supports encryption out-of-the-box][eol],
+so adding a separate package that does the same is useless.
+
+[eol]: https://laravel.com/docs/9.x/eloquent-mutators#encrypted-casting
+
 ## License
 
 The software is licensed under the [MIT License][link-license].
